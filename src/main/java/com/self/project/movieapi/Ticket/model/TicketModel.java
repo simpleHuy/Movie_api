@@ -1,4 +1,4 @@
-package com.self.project.movieapi.Ticket;
+package com.self.project.movieapi.Ticket.model;
 
 import com.self.project.movieapi.Showtime.ShowtimeModel;
 import com.self.project.movieapi.User.UserModel;
