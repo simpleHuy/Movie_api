@@ -27,7 +27,7 @@ public class TheaterService {
         if(theater == null) return null;
 
         List<ShowtimeModel> showtime = showtimeRepository.findByTheaterId(id);
-        theater.setShowtimes(showtime);
+        theater.setShowtime(showtime);
         return theater;
     }
 }

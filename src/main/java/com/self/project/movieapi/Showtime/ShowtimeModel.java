@@ -20,8 +20,8 @@ public class ShowtimeModel {
     @Id
     private String id;
     private String code;
-    private Time time;
-    private Date date;
+    private Time screeningTime;
+    private Date screeningDate;
 
     // relative columns
     @ManyToOne
