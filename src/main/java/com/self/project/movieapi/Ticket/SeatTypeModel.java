@@ -1,4 +1,4 @@
-package com.self.project.movieapi.SeatType;
+package com.self.project.movieapi.Ticket;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
