@@ -22,6 +22,7 @@ public class ShowtimeModel {
     private String code;
     private Time screeningTime;
     private Date screeningDate;
+    private int roomNumber;
 
     // relative columns
     @ManyToOne
