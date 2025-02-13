@@ -18,11 +18,7 @@ import lombok.NoArgsConstructor;
 public class TicketModel {
     @Id
     private String id;
-    private String code; // seat code
-
     // relative columns
-    @ManyToOne
-    private SeatTypeModel seatType;
     @ManyToOne
     private ShowtimeModel showtime;
     @ManyToOne
