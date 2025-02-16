@@ -1,4 +1,4 @@
 package com.self.project.movieapi.Auth.DTO;
 
-public record ErrorResponse() {
+public record ErrorResponse(String message) {
 }

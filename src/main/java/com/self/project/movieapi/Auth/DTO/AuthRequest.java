@@ -1,4 +1,4 @@
 package com.self.project.movieapi.Auth.DTO;
 
-public class AuthRequest {
+public record AuthRequest(String username, String password) {
 }

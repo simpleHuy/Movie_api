@@ -1,4 +1,4 @@
 package com.self.project.movieapi.Auth.DTO;
 
-public class RefreshTokenRequest {
+public record RefreshTokenRequest(String refreshToken) {
 }
