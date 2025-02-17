@@ -1,12 +1,10 @@
-package com.self.project.movieapi.Ticket;
+package com.self.project.movieapi.Ticket.model;
 
-import com.self.project.movieapi.SeatType.SeatTypeModel;
 import com.self.project.movieapi.Showtime.ShowtimeModel;
 import com.self.project.movieapi.User.UserModel;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,11 +18,7 @@ import lombok.NoArgsConstructor;
 public class TicketModel {
     @Id
     private String id;
-    private String code; // seat code
-
     // relative columns
-    @ManyToOne
-    private SeatTypeModel seatType;
     @ManyToOne
     private ShowtimeModel showtime;
     @ManyToOne

@@ -1,6 +1,5 @@
 package com.self.project.movieapi.Theater;
 
-import com.self.project.movieapi.Movie.MovieModel;
 import com.self.project.movieapi.Showtime.ShowtimeModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -26,5 +25,5 @@ public class TheaterModel {
 
     // relative columns
     @OneToMany(mappedBy = "theater")
-    private List<ShowtimeModel> showtimes;
+    private List<ShowtimeModel> showtime;
 }
